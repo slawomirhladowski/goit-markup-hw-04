@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <!-- /*  modern normalizer ma byc pierwszym linkiem */ -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <a class="logotype" href="./index.html">
+          <span class="piece-of-logotype">Web</span>
+          <span>Studio</span></a
+        >
+
+        <nav>
+          <ul class="flex-container-one">
+            <li><a class="menu-item" href="./index.html">Agencja</a></li>
+            <li><a class="menu-item" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="menu-item" href="kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+        <div>
+          <ul class="flex-container">
+            <li>
+              <a class="contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-link" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+      <section class="big-bar">
+        <h1 class="main-headline">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU</h1>
+        <div class="button-container">
+          <button class="button-cta" type="button">Zamów usługę</button>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <!-- div  z lorem ipsum-->
+      <section class="container-two">
+        <ul class="flex-container-two">
+          <li class="card">
+            <h2 class="card-title">LOREM IPSUM</h2>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+          <li class="card">
+            <h2 class="card-title">LOREM IPSUM</h2>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+
+          <li class="card">
+            <h2 class="card-title">LOREM IPSUM</h2>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+
+          <li class="card">
+            <h2 class="card-title">LOREM IPSUM</h2>
+            <p class="card-text">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam vel
+              arcu sem. Sed non sodales dui. Interdum et malesuada
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <!--section czym sie zajmujemy-->
+      <section>
+        <div class="container-three">
+          <h2 class="secondary-headline">Czym się zajmujemy</h2>
+          <ul class="flex-container-three">
+            <li>
+              <img
+                src="./images/img1.jpg"
+                alt="Czym sie zajmujemy1"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/img2.jpg"
+                alt="Czym sie zajmujemy2"
+                width="370"
+                height="294"
+              />
+            </li>
+            <li>
+              <img
+                src="./images/img3.jpg"
+                alt="Czym sie zajmujemy3"
+                width="370"
+                height="294"
+              />
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--section nasz zespol-->
+      <section>
+        <div class="container-four">
+          <h2 class="secondary-headline">Nasz zespół</h2>
+          <ul class="flex-container-four">
+            <li class="our-team-card">
+              <img
+                src="./images/img21.jpg"
+                alt="Product Designer"
+                width="270"
+                height="260"
+              />
+              <p class="team-member-name">John Doe</p>
+              <p class="work-position">Product Designer</p>
+            </li>
+            <li class="our-team-card">
+              <img
+                src="./images/img22.jpg"
+                alt="Frontend Developer"
+                width="270"
+                height="260"
+              />
+              <p class="team-member-name">John Doe</p>
+              <p class="work-position">Frontend Developer</p>
+            </li>
+            <li class="our-team-card">
+              <img
+                src="./images/img23.jpg"
+                alt="Marketing"
+                width="270"
+                height="260"
+              />
+              <p class="team-member-name">John Doe</p>
+              <p class="work-position">Marketing</p>
+            </li>
+            <li class="our-team-card">
+              <img
+                src="./images/img24.jpg"
+                alt="UI Designer"
+                width="270"
+                height="260"
+              />
+              <p class="team-member-name">John Doe</p>
+              <p class="work-position">UI Designer</p>
+            </li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="container-five">
+      <a class="logotype" href="./index.html">
+        <span class="piece-of-logotype">Web</span>
+        <span class="piece-of-logotype-footer">Studio</span></a
+      >
+
+      <address>
+        <ul class="addres-footer">
+          <li>
+            <p class="address-info">m. Warszawa, Aleje Jerozolimskie 21</p>
+          </li>
+          <li>
+            <a class="contact-link-footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-link-footer" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
+</html>

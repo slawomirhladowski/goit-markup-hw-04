@@ -1,0 +1,531 @@
+/*   test */
+:root {
+  --main-text-color: #212121;
+  --secondary-text-color: #ffffff;
+  --ouwner-text-color: #757575;
+  --acent-color: #2196f3;
+  --contener-color: #eeeeee;
+  --logo-color-text: #000000;
+  --buttons-port-color: #f5f4fa;
+  --footer-text-color: rgba(255, 255, 255, 0.6);
+  --background-footer-color: #2f303a;
+  --background-section: #e5e5e5;
+  --line-color: #ececec;
+  --background-color: #ffffff;
+  --icon-color: #afb1b8;
+
+  --main-font: Roboto, sans-serif;
+}
+
+body {
+  font-family: var(--main-font);
+  color: var(--main-text-color);
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  width: 1600px;
+  height: 2349px;
+  margin: 0;
+  background-color: var(--background-color);
+  /*ramka jeszcze chyba*/
+}
+
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+/* gorna waska listwa z nawigacja  */
+
+.top-bar {
+  width: 1600px;
+  height: 80px;
+  color: var(--contener-color);
+  display: flex;
+  border: 1px solid var(--line-color);
+  align-items: center;
+}
+
+.logotype {
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  color: var(--logo-color-text);
+  text-decoration: none;
+  margin-left: 215px;
+}
+
+.piece-of-logotype {
+  color: var(--acent-color);
+}
+
+.menu-item {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  color: var(--main-text-color);
+  text-decoration: none;
+}
+
+.menu-item:hover,
+.menu-item:focus {
+  color: var(--acent-color);
+}
+
+.flex-container-one {
+  list-style-type: none;
+  display: flex;
+  gap: 46px;
+  margin-left: 93px;
+}
+
+.contact-link {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.15;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--ouwner-text-color);
+}
+
+.contact-link:hover {
+  text-decoration: none;
+  color: var(--acent-color);
+}
+
+/*    centralne duze pole   */
+
+.big-bar {
+  /* width: 1600px; */
+  height: 600px;
+  background: var(--background-footer-color);
+  padding-top: 200px;
+  padding-bottom: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 100%;
+}
+
+.main-headline {
+  /* margin: 0;
+  width: 696px;
+  height: 120px;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase; */
+  color: var(--secondary-text-color);
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.4;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+
+  margin: 0 auto;
+  max-width: 696px;
+}
+
+.button-container {
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.button-cta {
+  /* margin-left: 700px;
+  margin-top: 350px; */
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: inherit;
+  letter-spacing: 0.06em;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+
+  /* padding-top: 10px;
+  padding-right: 42px;
+  padding-bottom: 10px;
+  padding-left: 42px; */
+
+  line-height: 1.88;
+
+  /* display: inline-flex; */
+  align-items: center;
+  justify-content: center;
+}
+
+.card {
+  width: 270px;
+  height: 101px;
+}
+
+.card-title {
+  margin: 0;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--main-text-color);
+}
+.card-text {
+  margin-top: 10px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--ouwner-text-color);
+}
+
+.container {
+  width: 1170px;
+  height: 386px;
+  background-color: var(--acent-color);
+}
+
+.secondary-headline {
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  /* margin-bottom: 50px; */
+}
+
+.team-member-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--main-text-color);
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+.work-position {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--ouwner-text-color);
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.flex-container {
+  /* margin: 0;
+  padding: 0;
+   gap: 46px;
+  flex-direction: row;
+  justify-content: space-between; */
+  list-style-type: none;
+  display: flex;
+  gap: 50px;
+  margin-left: 371px;
+
+  /* display: inline-flex; */
+  width: 295px;
+  /* justify-content: space-between; */
+}
+
+.container-two {
+  /* width: 1170px;
+  height: 101px;
+  margin-top: 94px; */
+  /* background-color: #00ff00;
+  
+  /* background-color: var(--background-color);
+  padding-top: 94px;
+  padding-bottom: 94px;
+  margin-left: 215px; */
+}
+.flex-container-two {
+  width: 1170px;
+  height: 101px;
+  margin-top: 94px;
+  display: flex;
+  list-style-type: none;
+  /* background-color: #00ff00; */
+  gap: 30px;
+  /* width: 1170px;
+  height: 101px; */
+  margin-left: 215px;
+  /* margin-top: 94px; */
+}
+
+.container-three {
+  margin-left: 215px;
+  width: 1170px;
+  height: 386px;
+  background-color: var(--background-color);
+  /* background-color: brown; */
+  margin-top: 94px;
+}
+
+.flex-container-three {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  list-style-type: none;
+  padding-top: 50px;
+}
+
+.our-team-card {
+  background: var(--background-color);
+  width: 270px;
+  height: 368px;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+.container-four {
+  width: 1600px;
+  height: 648px;
+  background: var(--buttons-port-color);
+  margin-top: 94px;
+  padding-top: 94px;
+  /* background-color: blue; */
+}
+
+.flex-container-four {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 30px;
+  /* flex-direction: row; */
+  /* justify-content: space-evenly; */
+  list-style-type: none;
+  padding-top: 50px;
+  padding-left: 215px;
+}
+/* .container {
+  list-style-type: none;
+}
+.justyfi-class {
+  justify-items: center;
+} */
+
+/*    footer    */
+
+.container-five {
+  width: 1600px;
+  height: 252px;
+  background: var(--background-footer-color);
+  color: var(--secondary-text-color);
+  padding-top: 50px;
+}
+
+.address-info {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: var(--secondary-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+}
+
+.piece-of-logotype-footer {
+  color: var(--secondary-text-color);
+}
+.contact-link-footer {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: var(--footer-text-color);
+  text-decoration: none;
+  font-style: normal;
+}
+
+.contact-link-footer:hover,
+.contact-link-footer:focus {
+  color: var(--acent-color);
+}
+
+.addres-footer {
+  list-style-type: none;
+  padding-top: 20px;
+  padding-left: 215px;
+}
+
+.nobull {
+  list-style-type: none;
+}
+
+/*              PORTFOLIO           */
+
+.container-portfolio {
+  width: 1170px;
+  height: 1360px;
+  background: var(--background-color);
+  margin-top: 94px;
+  margin-left: 215px;
+  margin-bottom: 94px;
+}
+
+.portfolio-buton-one {
+  width: 121px;
+  height: 38px;
+  background: var(--buttons-port-color);
+  border: 0;
+  border-radius: 4px;
+  color: var(--main-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.portfolio-buton-two {
+  width: 93px;
+  height: 38px;
+  background: var(--buttons-port-color);
+  color: var(--main-text-color);
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.portfolio-buton-three {
+  width: 114px;
+  height: 38px;
+  background: var(--buttons-port-color);
+  color: var(--main-text-color);
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.portfolio-buton-four {
+  width: 91px;
+  height: 38px;
+  background: var(--buttons-port-color);
+  color: var(--main-text-color);
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.portfolio-buton-five {
+  width: 121px;
+  height: 38px;
+  background: var(--buttons-port-color);
+  color: var(--main-text-color);
+  border: 0;
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  cursor: pointer;
+}
+
+.portfolio-buton-one:hover,
+.portfolio-buton-one:focus,
+.portfolio-buton-two:hover,
+.portfolio-buton-two:focus,
+.portfolio-buton-three:hover,
+.portfolio-buton-three:focus,
+.portfolio-buton-four:hover,
+.portfolio-buton-four:focus,
+.portfolio-buton-five:hover,
+.portfolio-buton-five:focus {
+  background-color: var(--acent-color);
+  color: var(--secondary-text-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
+}
+.flex-container-portfolio-one {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 50px;
+  gap: 8px;
+  margin-left: 295px;
+}
+
+.flex-container-portfolio-two {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style-type: none;
+  /* margin-left: 510px; */
+}
+.portfolio-card-item {
+  width: 370px;
+  height: 404px;
+  background: var(--background-color);
+  border: 1px solid #eeeeee;
+}
+
+.project-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  /* identical to box height, or 200% */
+  letter-spacing: 0.06em;
+  color: var(--main-text-color);
+  margin-top: 20px;
+  margin-left: 24px;
+}
+
+.project-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 30px;
+  /* identical to box height, or 188% */
+  letter-spacing: 0.03em;
+  color: var(--ouwner-text-color);
+  margin-top: 4px;
+  margin-left: 24px;
+}
+
+/* .moja-klasa {
+  background-color: #00ff00;
+} */

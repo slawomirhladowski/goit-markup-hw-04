@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="pl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebStudio</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="top-bar">
+        <a class="logotype" href="./index.html">
+          <span class="piece-of-logotype">Web</span>
+          <span>Studio</span></a
+        >
+
+        <nav>
+          <ul class="flex-container-one">
+            <li><a class="menu-item" href="./index.html">Agencja</a></li>
+            <li><a class="menu-item" href="./portfolio.html">Portfolio</a></li>
+            <li><a class="menu-item" href="kontakt">Kontakt</a></li>
+          </ul>
+        </nav>
+        <div>
+          <ul class="flex-container">
+            <li>
+              <a class="contact-link" href="mailto:info@devstudio.com"
+                >info@devstudio.com</a
+              >
+            </li>
+            <li>
+              <a class="contact-link" href="tel:+48111111111"
+                >+48 111 111 111</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <main>
+      <!--glowny, jeden div w portfolio-->
+
+      <div class="container-portfolio">
+        <section>
+          <!--sekcja butanowo/butonowa-->
+          <ul class="flex-container-portfolio-one">
+            <li>
+              <button class="portfolio-buton-one" type="button">
+                Wszystkie
+              </button>
+            </li>
+            <li>
+              <button class="portfolio-buton-two" type="button">Strony</button>
+            </li>
+            <li>
+              <button class="portfolio-buton-three" type="button">
+                Aplikacje
+              </button>
+            </li>
+            <li>
+              <button class="portfolio-buton-four" type="button">Dizajn</button>
+            </li>
+            <li>
+              <button class="portfolio-buton-five" type="button">
+                Marketing
+              </button>
+            </li>
+          </ul>
+        </section>
+        <section>
+          <!--sekcja z img to pewnie beda butony zeby wejsc glebiej-->
+          <ul class="flex-container-portfolio-two">
+            <li class="portfolio-card-item">
+              <img
+                src="./images/imgpor11.jpg"
+                alt="Technocrack"
+                width="370"
+                height="294"
+              />
+              <p class="project-name">Technocrack</p>
+              <p class="project-description">Strona internetowa</p>
+            </li>
+            <li class="portfolio-card-item">
+              <img
+                src="./images/imgpor12.jpg"
+                alt="Grafika New Orlean vs Golden Star"
+                width="370"
+                height="294"
+              />
+              <p class="project-name">Grafika New Orlean vs Golden Star</p>
+              <p class="project-description">Dizajn</p>
+            </li>
+            <li class="portfolio-card-item">
+              <img
+                src="./images/imgpor13.jpg"
+                alt="Restauracja Seafood"
+                width="370"
+                height="294"
+              />
+              <p class="project-name">Restauracja Seafood</p>
+              <p class="project-description">Aplikacja</p>
+            </li>
+            <li class="portfolio-card-item">
+              <img
+                src="./images/imgpor21.jpg"
+                alt="Projekt Prime"
+                width="370"
+                height="294"
+              />
+              <p class="project-name">Projekt Prime</p>
+              <p class="project-description">Marketing</p>
+            </li>
+            <li class="portfolio-card-item">
+              <img
+                src="./images/imgpor22.jpg"
+                alt="Projekt Boxes"
+                width="370"
+                height="294"
+              />
+              <p class="project-name">Projekt Boxes</p>
+              <p class="project-description">Aplikacja</p>
+            </li>
+            <li class="portfolio-card-item">
+              <img
+                src="./images/imgpor23.jpg"
+                alt="Inspiration has no Borders"
+                width="370"
+                height="294"
+              />
+              <p class="project-name">Inspiration has no Borders</p>
+              <p class="project-description">Strona internetowa</p>
+            </li>
+            <li class="portfolio-card-item">
+              <img
+                src="./images/imgpor31.jpg"
+                alt="Magazyn Limited Edition"
+                width="370"
+                height="294"
+              />
+              <p class="project-name">Magazyn Limited Edition</p>
+              <p class="project-description">Dizajn</p>
+            </li>
+            <li class="portfolio-card-item">
+              <img
+                src="./images/imgpor32.jpg"
+                alt="Projekt LAB "
+                width="370"
+                height="294"
+              />
+              <p class="project-name">Projekt LAB</p>
+              <p class="project-description">Marketing</p>
+            </li>
+            <li class="portfolio-card-item">
+              <img
+                src="./images/imgpor33.jpg"
+                alt="Growing Business"
+                width="370"
+                height="294"
+              />
+              <p class="project-name">Growing Business</p>
+              <p class="project-description">Aplikacja</p>
+            </li>
+          </ul>
+        </section>
+      </div>
+    </main>
+
+    <footer class="container-five">
+      <a class="logotype" href="./index.html">
+        <span class="piece-of-logotype">Web</span>
+        <span class="piece-of-logotype-footer">Studio</span></a
+      >
+
+      <address>
+        <ul class="addres-footer">
+          <li>
+            <p class="address-info">m. Warszawa, Aleje Jerozolimskie 21</p>
+          </li>
+          <li>
+            <a class="contact-link-footer" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
+          </li>
+          <li>
+            <a class="contact-link-footer" href="tel:+48111111111"
+              >+48 111 111 111</a
+            >
+          </li>
+        </ul>
+      </address>
+    </footer>
+  </body>
+</html>
